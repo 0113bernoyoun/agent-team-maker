@@ -1,10 +1,10 @@
 #!/bin/bash
 # agent-team-maker installer — works without npm/node
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/0113bernoyoun/agent-team-maker/main/install.sh | bash
 
 set -e
 
-REPO_URL="https://github.com/YOUR_REPO/agent-team-maker"
+REPO_URL="https://github.com/0113bernoyoun/agent-team-maker"
 TEMP_DIR=$(mktemp -d)
 TARGET_DIR="${1:-.}"
 
